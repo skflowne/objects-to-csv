@@ -56,6 +56,7 @@ settings. Supported options:
 - `allColumns` - whether to check all array items for keys to convert to columns rather
   than only the first. This will sort the columns alphabetically. Default is `false`;
   set to `true` to check all items for potential column names.
+- `delimiter` - The column delimiter character. Defaults to `,`.
 
 ```js
 const ObjectsToCsv = require("objects-to-csv");
@@ -77,7 +78,7 @@ const mixedData = [
 new ObjectsToCsv(mixedData).toDisk("./test.csv", { allColumns: true });
 ```
 
-### async toString(header = true, allColumns = false)
+### async toString(header = true, allColumns = false, delimiter = ',')
 
 Returns the CSV file as a string.
 
@@ -90,6 +91,7 @@ Two optional parameters are available:
   rather than only the first item; this will sort the columns alphabetically by key name.
   Default is `false`. Set it to `true` to process keys that may not be present
   in the first object of the array.
+- `delimiter` - The column delimiter character. Defaults to `,`.
 
 ```js
 const ObjectsToCsv = require("objects-to-csv");
