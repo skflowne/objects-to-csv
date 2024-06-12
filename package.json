@@ -1,6 +1,6 @@
 {
-  "name": "objects-to-csv",
-  "version": "1.3.6",
+  "name": "objects-to-csv-file",
+  "version": "2.0.0",
   "description": "Converts an array of objects into a CSV file. Saves CSV to disk or returns as string.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anton-bot/objects-to-csv.git"
+    "url": "git+https://github.com/skflowne/objects-to-csv"
   },
   "keywords": [
     "csv",
@@ -25,9 +25,9 @@
   "author": "Anton Ivanov <anton@ivanov.hk>",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/anton-bot/objects-to-csv/issues"
+    "url": "https://github.com/skflowne/objects-to-csv/issues"
   },
-  "homepage": "https://github.com/anton-bot/objects-to-csv#readme",
+  "homepage": "https://github.com/skflowne/objects-to-csv#readme",
   "dependencies": {
     "async-csv": "^2.1.3"
   },
